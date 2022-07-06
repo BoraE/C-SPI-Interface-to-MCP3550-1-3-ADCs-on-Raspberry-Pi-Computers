@@ -1,5 +1,8 @@
 # C-SPI-Interface-to-MCP3550-1-3-ADCs-on-Raspberry-Pi-Computers
-A C++ class to communicate with the MCP3550/1/3 ADC chips over the SPI protocol on Raspberry Pi (Zero, 4, 400) computers
+A C++ class to communicate with the MCP3550/1/3 analog-to-digital (A/D) converters over the SPI protocol on Raspberry Pi (Zero, 4, 400) computers.
+
+## Synopsis
+[MCP3550/1/3](https://www.microchip.com/en-us/product/MCP3553) is a 22-bit, single-channel analog-to-digital converter that can be operated using the SPI communication protocol available on Raspberry Pi (Zero, 4, 400) computers.
 
 ## Requirements
 To be able to compile this code, you need to install the latest version of the [C library for Broadcom BCM 2835 as used in Raspberry](http://www.airspayce.com/mikem/bcm2835/) by Mike McCauley.
