@@ -40,6 +40,7 @@ $(BUILD_DIR):
 .PHONY: clean doc tags test
 clean:
 	rm -fR $(BUILD_DIR) $(DOC_DIR)
+	rm -f TAGS
 
 doc:
 	doxygen doxygen_config.txt
